@@ -1,0 +1,38 @@
+# tp_si6
+#fromage
+
+#include <cstdint>
+int main();
+{
+double operande A;
+double operande B;
+double resultat*;
+double resultat/;
+double resultat+;
+double resultat-;
+
+double add(double operante A, double operande B)
+  {
+  return operande A * operande B;
+  }
+
+double add(double operante A, double operande B)
+  {
+  return operande A / operande B;
+  }
+
+double add(double operante A, double operande B)
+  {
+  return operande A + operande B;
+  }
+
+double add(double operante A, double operande B)
+  {
+  return operande A - operande B;
+  }
+
+
+
+
+
+}
