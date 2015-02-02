@@ -4,33 +4,35 @@
 #include <cstdint>
 int main();
 {
-double operande A;
-double operande B;
+double A;
+double B;
 double resultat*;
 double resultat/;
 double resultat+;
 double resultat-;
 
-double add(double operante A, double operande B)
+double add(double A, B)
   {
-  return operande A * operande B;
+  return A * B;
   }
 
-double add(double operante A, double operande B)
+double add(double A, B)
   {
   return operande A / operande B;
   }
 
-double add(double operante A, double operande B)
+double add(double A, B)
   {
-  return operande A + operande B;
+  return A + B;
   }
 
-double add(double operante A, double operande B)
+double add(double  A, B)
   {
-  return operande A - operande B;
+  return A - B;
   }
 
+resultat*= add(A, B)
+printf(resultat*);
 
 
 
