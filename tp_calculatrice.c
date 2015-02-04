@@ -24,7 +24,7 @@ double add(double A, B)
 //declaration de la fonction diviser
 double add(double A, B)
   {
-  return operande A / operande B;
+  return A / B;
   }
 
 //declaration de la fonction addition
@@ -42,7 +42,12 @@ double add(double  A, B)
 resultat*= add(A, B)
 printf(resultat*);
 
+resultat/= add(A, B)
+printf(resultat/);
 
+resultat+= add(A, B)
+printf(resultat+);
 
-
+resultat-= add(A, B)
+printf(resultat-);
 }
